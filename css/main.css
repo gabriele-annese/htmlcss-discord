@@ -22,9 +22,20 @@ a {
 }
 
 .button {
+    display: inline-block;
     border-radius: 25px;
     background-color: #fff;
     padding: 10px;
+}
+
+h1,h2,h3,h4 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p {
+    line-height: 25px;
+    font-size: 18px;
 }
 
 /* DEBUG */
@@ -75,6 +86,7 @@ a {
     background-color: #fff;
     padding: 10px;
 }
+
 .login {
    position: absolute;
    right: 0;
@@ -83,5 +95,17 @@ a {
 
 .header-content {
     width: 100%;
-    background: red;
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-content .text-header {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
 }
