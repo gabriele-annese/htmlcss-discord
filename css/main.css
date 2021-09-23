@@ -23,12 +23,10 @@
 
 .float-left {
     float: left;
-    /* border: 4px solid black; */
 }
 
 .float-right {
     float: right;
-    /* border: 4px solid black; */
 }
 
 a {
@@ -69,7 +67,7 @@ a {
     background-color: #f6f6f6;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3{
     font-weight: bold;
     font-size: 48px;
 }
@@ -88,6 +86,27 @@ p {
     background-image: url(../img/stars.svg);
     background-size: contain;
 }
+
+.footer-title {
+    color: #7289da;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.flag {
+    margin-top: 20px;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+}
+
+.secondary-title-footer {
+    color: #7289da;
+    font-weight: bold;
+    font-size: 19px;
+}
+
 /* DEBUG */
 .box-debug {
     height: 50px;
@@ -168,6 +187,7 @@ p {
     font-size: 60px;
 }
 
+
 /* MAIN */
 
 .container {
@@ -193,46 +213,85 @@ p {
 .footer-section {
     width: 100%;
     height: 600px;
-    background: blue;
+    background: #23272a;
 }
 
 .top-footer {
+    margin-left: 10px;
     display: inline-block;
     width: 20%;
-    height: 200px;
-    background: yellow;
 }
 
 .right-footer {
     display: inline-block;
     width: 79%;
     height: 200px;
-    background: green;
 }
 
 .column {
     width: 25%;
-    /* height: 80px; */
-    background: red;
 }
 
 .bottom-footer {
     width: 80%;
-    background-color: purple;
     margin:0 auto;
-    margin-top: 50px;
+    margin-top: 150px;
+    line-height: 30px;
 }
 
 .brand {
     display: inline-block;
     width: 30%;
-    height: 50px;
-    background:  green;
 }
 
-.register {
+ .register {
     display: inline-block;
-    width: 50%;
-    height: 50px;
-    background: yellow;
+    width: 60%;
+} 
+
+
+.language {
+    margin-top: 30px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flag img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.social {
+    margin-top: 15px;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.social a{
+    color: #fff;
+    padding-right: 5px;
+}
+
+.top-footer .column a {
+    color: #fff;
+}
+
+.column-content ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.column-content li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.bottom-footer .brand {
+    vertical-align: middle;
+}
+.bottom-footer .register {
+    text-align: right;
 }
